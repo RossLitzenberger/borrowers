@@ -11,7 +11,7 @@ export default Ember.Controller.extend({
         !Ember.isEmpty(this.get('model.firstName')) &&
         !Ember.isEmpty(this.get('model.lastName')) &&
         !Ember.isEmpty(this.get('model.twitter'));
-    }
+    }s
   ),
   actions: {
     save: function() {
