@@ -3,8 +3,7 @@
 <h2>Total friends: {{model.length}}</h2>
 <ul>
   {{#each model as |friend|}}
-  <li>
-    {{link-to friend.fullName  'friends.show' friend}}
-  </li>
+  <li>{{link-to friend.fullName  'friends.show' friend}}</li>
+  <li><a href="#" {{action "delete" friend}}>Delete</a></li>
   {{/each}}
 </ul>
