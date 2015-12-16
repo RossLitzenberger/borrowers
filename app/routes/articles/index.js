@@ -5,7 +5,7 @@ export default Ember.Route.extend({
     return this.modelFor('friends/show').get('articles');
   },
   actions: {
-    save(model){
+    save(model) {
       model.save();
       return false;
     }
