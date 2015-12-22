@@ -27,7 +27,8 @@ module.exports = function(defaults) {
   // PicnicCSS
   app.import('bower_components/picnic/releases/plugins.min.css');
   app.import('bower_components/picnic/releases/picnic.min.css');
-
+  // moment
+  app.import('bower_components/moment/moment.js');
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
